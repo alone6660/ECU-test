@@ -1,0 +1,50 @@
+[
+  {
+    "name": "HEV_General_Status_1",
+    "frame_id": "0x341",
+    "length": 8,
+    "cycle_time": 100,
+    "signals": [
+      {
+        "name": "HandBrkSts",
+        "default_value": "0"
+      }
+    ]
+  },
+  {
+    "name": "HCU_General_Status_2",
+    "frame_id": "0x1B9",
+    "length": 8,
+    "cycle_time": 10,
+    "signals": [
+      {
+        "name": "HCUGnrlSts2RollCnt",
+        "default_value": "RC"
+      },
+      {
+        "name": "AccActPosV",
+        "default_value": "0"
+      },
+      {
+        "name": "AccActPos",
+        "default_value": "0"
+      },
+      {
+        "name": "VrtlAccPstnV",
+        "default_value": "0"
+      },
+      {
+        "name": "EngnStatStpStt",
+        "default_value": "0"
+      },
+      {
+        "name": "VrtlAccPstn",
+        "default_value": "0"
+      },
+      {
+        "name": "HCUGenSta_2Cksm",
+        "default_value": "CS"
+      }
+    ]
+  }
+]
